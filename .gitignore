@@ -1,0 +1,66 @@
+﻿# Git Ignore for Power BI and Data Analysis Projects
+
+# Operating System Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Environment and Secrets
+*.env
+*.env.*
+*.secret
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Local Database Files & Dumps
+*.sqlite-journal
+*.db-journal
+*.log
+
+# Python / Environment Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and Editor Temporary Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Power BI Temporary Auto-Recovery Files
+# (Do NOT ignore actual .pbix or screenshots)
+*.tmp
+*AutoRecovery*.pbix
